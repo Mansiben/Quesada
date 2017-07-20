@@ -1,0 +1,81 @@
+#hero, #news1, #news2, #news3 {
+  background-color: linen; }
+
+#join-container {
+  background: url("/assets/avocado-1.jpg") no-repeat;
+  background-size: cover; }
+
+.navbar {
+  width: 100%;
+  background: none !important; }
+  @media (max-width: 34em) {
+    .navbar {
+      background: #2c3e50 !important; } }
+  .navbar .navbar-toggler {
+    cursor: pointer;
+    outline: 0; }
+  .navbar .nav-link {
+    text-transform: uppercase;
+    font-weight: bold; }
+  .navbar .nav-item {
+    padding: 0 1rem; }
+    @media (max-width: 34em) {
+      .navbar .nav-item {
+        padding: 0; } }
+    .navbar .nav-item .nav-link:hover {
+      color: #4C1130; }
+    .navbar .nav-item .nav-link {
+      color: #ff5722; }
+      @media (max-width: 34em) {
+        .navbar .nav-item .nav-link {
+          font-weight: normal;
+          color: #fff !important; } }
+
+.container1 {
+  margin-left: 7%; }
+  @media (max-width: 34em) {
+    .container1 {
+      text-align: center; } }
+
+#textbox {
+  color: #4C1130; }
+  @media (max-width: 34 em) {
+    #textbox {
+      margin-top: 0; } }
+
+.btn {
+  color: #4C1130;
+  font-weight: bold;
+  background-color: #DB7424; }
+
+#textbox, #emailbox {
+  font-weight: bold; }
+
+.cat, .pri, .con {
+  font-weight: bold;
+  font-size: 15px;
+  color: #4C1130; }
+  @media (max-width: 34 em) {
+    .cat, .pri, .con {
+      text-align: center; } }
+
+.detail1 {
+  color: #4C1130;
+  text-Shadow: 2px 5px 5px white; }
+
+.content {
+  text-align: center;
+  font-weight: bold;
+  color: #4C1130;
+  text-Shadow: 2px 5px 5px orange; }
+
+.taco1 {
+  margin-left: 60%; }
+
+.t1, .t2, .t3 {
+  text-align: left;
+  margin-left: 260px;
+  color: #2c3e50; }
+
+.t3 {
+  font-size: 20px; }

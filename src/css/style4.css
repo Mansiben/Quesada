@@ -1,0 +1,109 @@
+body {
+  background-color: linen; }
+
+#hero {
+  background-color: linen; }
+
+#join-container {
+  background: url("/assets/avocado-1.jpg") no-repeat;
+  background-size: cover; }
+  @media (max-width: 34 em) {
+    #join-container {
+      margin-top: 20%;
+      padding-top: 20px; } }
+
+.navbar {
+  width: 100%;
+  background: none !important; }
+  @media (max-width: 34em) {
+    .navbar {
+      background: #2c3e50 !important; } }
+  .navbar .navbar-toggler {
+    cursor: pointer;
+    outline: 0; }
+  .navbar .nav-link {
+    text-transform: uppercase;
+    font-weight: bold; }
+  .navbar .nav-item {
+    padding: 0 1rem; }
+    @media (max-width: 34em) {
+      .navbar .nav-item {
+        padding: 0; } }
+    .navbar .nav-item .nav-link:hover {
+      color: #4C1130; }
+    .navbar .nav-item .nav-link {
+      color: #ff5722; }
+      @media (max-width: 34em) {
+        .navbar .nav-item .nav-link {
+          font-weight: normal;
+          color: #fff !important; } }
+
+.c1 {
+  float: left;
+  text-align: left;
+  margin-left: 15%;
+  font-weight: bold;
+  color: #4C1130;
+  text-Shadow: 2px 5px 5px orange;
+  padding-top: 0px;
+  margin-top: 0; }
+
+.c2, .c3 {
+  float: left;
+  text-align: left;
+  margin-left: 15%;
+  font-weight: bold; }
+
+.container1 {
+  margin-left: 7%; }
+  @media (max-width: 34em) {
+    .container1 {
+      text-align: center; } }
+
+#textbox {
+  color: #4C1130; }
+  @media (max-width: 34 em) {
+    #textbox {
+      margin-top: 0; } }
+
+.btn {
+  color: #4C1130;
+  font-weight: bold;
+  background-color: #DB7424; }
+
+#textbox, #emailbox {
+  font-weight: bold; }
+
+.cat, .pri, .con {
+  font-weight: bold;
+  font-size: 15px;
+  color: #4C1130; }
+  @media (max-width: 34 em) {
+    .cat, .pri, .con {
+      text-align: center; } }
+
+.detail1 {
+  color: #4C1130;
+  text-Shadow: 2px 5px 5px white; }
+
+.content {
+  text-align: center; }
+
+.content2 {
+  float: left;
+  text-align: left;
+  margin-left: 15%;
+  font-weight: bold; }
+  @media (max-width: 34 em) {
+    .content2 {
+      margin-bottom: 20%;
+      padding-bottom: 50px; } }
+
+#im3 {
+  margin-left: 150%;
+  margin-top: -90%; }
+  @media (max-width: 34 em) {
+    #im3 {
+      margin-left: 0;
+      margin-top: 0;
+      float: left; } }

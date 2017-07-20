@@ -1,0 +1,64 @@
+#hero
+{
+    background: url("/assets/food_fruit.jpg") no-repeat;
+}
+
+.navbar {
+    width:100%;
+    background:none !important;
+
+    @media(max-width: 34em) {
+        background:#2c3e50 !important;
+    }
+
+    .navbar-toggler {
+        cursor:pointer;
+        outline:0;
+    }
+
+    .nav-link {
+        text-transform:uppercase;
+        font-weight:bold;
+    }
+
+    .nav-item {
+        padding: 0 1rem;
+
+        @media(max-width: 34em) {
+            padding: 0;
+        }
+        
+        
+        .nav-link:hover
+        {
+            color: #4C1130;
+        }
+
+        .nav-link{
+
+            color: #ff5722;
+            
+        
+            @media(max-width: 34em) {
+                font-weight:normal;
+                color:#fff !important;
+            }
+        }
+    }
+}
+
+.more1,.lab1
+{
+    padding-right: 35px;
+    padding-left: 85px;
+    text-align: center;
+    font-weight: bold;
+    color: #ff5722;
+}
+.more2,.more3,.more4,.more5,.more6,.more7,.lab2,.lab3,.lab4,.lab5,.lab6,.lab7,.lab8
+{
+    padding-right: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: #ff5722;
+}
