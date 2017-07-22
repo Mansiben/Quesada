@@ -1,3 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+.img1 {
+    width: 100%;
+    height: auto;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
 body{
      background-color:linen;
 }
@@ -5,7 +54,10 @@ body{
 {
      background-color:linen;
 }
-
+.container
+{
+    background-color: linen;
+}
 #join-container {
   background: url("/assets/avocado-1.jpg") no-repeat;
   background-size: cover; 
@@ -60,26 +112,18 @@ body{
     }
 }
 
-
 .c1
 {
     float: left;
     text-align: left;
-    margin-left: 15%;
+    margin-left: 0;
     font-weight: bold;
     color: #4C1130;
     text-Shadow : 2px 5px 5px orange;
     padding-top: 0px;
     margin-top: 0;
 }
-.c2,.c3{
 
-    float: left;
-    text-align: left;
-    margin-left: 15%;
-    font-weight: bold;
-
-}
 
 .container1{
    
@@ -146,15 +190,18 @@ body{
     text-align: center;
 }
 
+
 .content2{
     float: left;
    text-align: left;
-    margin-left: 15%;
+    margin-left: 0;
     font-weight: bold;
     @media(max-width:34 em)
     {
         margin-bottom: 20%;
         padding-bottom: 50px;
+        text-align: left;
+        text-justify: auto;
 
     }
     
@@ -162,11 +209,11 @@ body{
 
 #im3
 {
-    margin-left: 150%;
-    margin-top: -90%;
+    margin-left: 92%;
+    margin-top: -70%;
     @media(max-width:34 em)
     {
-        margin-left: 0;
+        margin-left: -50%;
         margin-top: 0;
         float: left;
         
