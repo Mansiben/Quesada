@@ -66,12 +66,10 @@
     width: 100%; } }
 
 body {
-  background: url("/assets/food_fruit.jpg") no-repeat;
-  background-size: contain; }
+  background-color: linen; }
 
 #hero {
-  background: url("/assets/food_fruit.jpg") no-repeat;
-  background-size: contain; }
+  background-color: linen; }
 
 #join-container {
   background: url("/assets/avocado-1.jpg") no-repeat;
@@ -95,7 +93,8 @@ body {
   padding-top: 95px; }
 
 .navbar {
-  width: 100%; }
+  width: 100%;
+  background: none !important; }
   @media (max-width: 34em) {
     .navbar {
       background: #2c3e50 !important; } }
@@ -104,6 +103,7 @@ body {
     outline: 0; }
     @media (max-width: 50em) {
       .navbar .navbar-toggler {
+        font-weight: normal;
         color: black !important; } }
   .navbar .nav-link {
     text-transform: uppercase;
@@ -121,6 +121,9 @@ body {
         .navbar .nav-item .nav-link {
           font-weight: normal;
           color: #fff !important; } }
+
+.video {
+  text-align: center; }
 
 .container1 {
   margin-left: 7%; }
@@ -153,3 +156,52 @@ body {
 .detail1 {
   color: #4C1130;
   text-Shadow: 2px 5px 5px white; }
+
+.counter {
+  background-color: #eaecf0;
+  text-align: center;
+  background: url("/assets/tile.jpg"); }
+
+.employees, .customer, .design, .order {
+  margin-top: 70px;
+  margin-bottom: 70px; }
+
+.counter-count {
+  font-size: 18px;
+  background-color: #00b3e7;
+  border-radius: 50%;
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+  line-height: 92px;
+  width: 92px;
+  height: 92px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: inline-block; }
+
+.employee-p, .customer-p, .order-p, .design-p {
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 34px; }
+
+.opp {
+  font-size: 20px;
+  margin-left: 15%; }
+
+#map {
+  width: 100%;
+  height: 400px;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  @media (max-width: 34 em) {
+    #map {
+      zoom: 3; } }
+
+.info-window {
+  font-family: 'Montserrat', sans-serif; }
+
+.info-content {
+  color: #999; }
