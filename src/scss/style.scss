@@ -61,15 +61,13 @@ body{
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
   }
-  .affix-top a {
-     // padding: 25px !important;
-  }
+
    .affix + .container {
       padding-top: 95px;
   }
 .navbar {
     width:100%;
-   // background:none !important;
+    background:none !important;
 
     @media(max-width: 34em) {
         background:#2c3e50 !important;
@@ -80,8 +78,8 @@ body{
         cursor:pointer;
         outline:0;
         @media(max-width: 50em) {
-               // font-weight:normal;
-                color:black !important;
+                font-weight:normal;
+                color:#fff !important;
             }
         
     }

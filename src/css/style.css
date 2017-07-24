@@ -95,7 +95,8 @@ body {
   padding-top: 95px; }
 
 .navbar {
-  width: 100%; }
+  width: 100%;
+  background: none !important; }
   @media (max-width: 34em) {
     .navbar {
       background: #2c3e50 !important; } }
@@ -104,7 +105,8 @@ body {
     outline: 0; }
     @media (max-width: 50em) {
       .navbar .navbar-toggler {
-        color: black !important; } }
+        font-weight: normal;
+        color: #fff !important; } }
   .navbar .nav-link {
     text-transform: uppercase;
     font-weight: bold; }
