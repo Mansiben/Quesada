@@ -14,6 +14,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
+       <script src="/js/new.js"></script>
         
     </head>
 0
@@ -142,9 +143,9 @@
            
          <div class="container2 col-sm-12 col-md-4  " >
            <br/><br/><br/><br/><br/>
-          <form class="form-group row pt-lg-5 pb-lg-5 pt-5">
+          <form class="form-group row pt-lg-5 pb-lg-5 pt-5" onsubmit="return validate()" method="get">
             <input type="email" class="form-control col-sm-6 col-md-12 col-lg-14 mb-4" id="textbox" aria-describedby="emailHelp" placeholder="Enter email">
-            <button type="submit" class="btn  btn-block text-uppercase col-sm-6 col-md-12 col-lg-14 " id="emailbox">Subscribe</button>
+            <button type="submit" class="btn  btn-block text-uppercase col-sm-6 col-md-12 col-lg-14 " id="emailbox" onclick="submit();">Subscribe</button>
           </form>
          </div>  
 
